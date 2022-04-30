@@ -6,7 +6,7 @@ It is completely written in Python ⌨️.
 
 # Download code 📥
 
-* git clone https://github.com/Prasobh-23/ipLoc.git
+* git clone https://github.com/Prasobh-23/fakerpython.git
 
 
 # Libraries need ⚙️
