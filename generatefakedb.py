@@ -20,10 +20,10 @@ conn = mysql.connector.connect(
     host = "localhost",
     user = "root",
     password = "",
-    database = "fakedata"
+    database = "yourdbname"
     )
 cur = conn.cursor()
-sql = "INSERT INTO fake (name, address, designation) VALUES(%s,%s,%s)"
+sql = "INSERT INTO tablename (urdbcolunmname, urdbcolunmname, urdbcolunmname) VALUES(%s,%s,%s)"
 
 try:
     cur.executemany(sql, list)
